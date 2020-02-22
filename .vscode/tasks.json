@@ -5,7 +5,7 @@
   "tasks": [{
     "label": "Project Label",
     "type": "shell",
-    "command": "python3",
+    "command": "./python_basic/bin/python3", // venv의 파이썬 실행 파일로 해야 함.
     "args": [
       "${file}"
     ],
@@ -23,4 +23,6 @@
       "isDefault": true
     }
   }]
+
+  // "command": "python3",
 }
