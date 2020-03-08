@@ -21,3 +21,17 @@ print(e[-1][3])  # Banana
 # 슬라이싱
 print(d[0:3])
 print(e[2][1:3])  # 100, Pen
+
+# 리스트 함수
+y = [5, 2, 3, 1, 4]
+print(y)
+y.append(6)
+y.sort()
+y.reverse()
+y.insert(2, 7)
+print(y)
+ex = [88, 77]
+y.extend(ex)  # append도 됨. 단 append는 리스트 자체가 들어감. extend 는 배열을 단순 확장시키는 것.
+print(y)
+
+# 삭제: del, remove, pop
